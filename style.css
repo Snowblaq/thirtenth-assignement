@@ -266,16 +266,10 @@ button{
 button{
     border: none;
     padding: 7px;
-
-
-
-
-
-
+}
 @media(max-width: 1007px){
     .grid{
-        top: 70px;
-       
+        top: 70px;  
     }
 
 }
@@ -290,7 +284,7 @@ button{
        "c"
        "e"
        ;
-    }
+}
     .container{
         height: 155vh;
     }
