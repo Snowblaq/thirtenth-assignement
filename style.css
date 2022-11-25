@@ -112,7 +112,7 @@ width: 12%;
     grid-area: a;
     background-color:white;
     border-radius: 5px;
-    height: 50px;
+    height: 60px;
 }
 .b{
     grid-area: b;
@@ -149,7 +149,7 @@ width: 12%;
   font-size: 7px;
   margin-top: 5px;
   border-radius: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   margin-left: 5px;
 }
 .post{
@@ -163,7 +163,7 @@ button{
     color: aliceblue;
 }
 .b{
-    padding: 20px;
+    padding: 40px;
 }
 .b h2{
     font-size: 12px;
@@ -211,7 +211,7 @@ border-radius: 50%;
     font-size: 13px;
 }
 .e{
-    padding: 20px;
+    padding: 40px;
 }
 .e h2{
     font-size: 12px;
@@ -219,9 +219,9 @@ border-radius: 50%;
 }
 .e .lin{
     display: flex;
-    align-items: left;
+    align-items: center;
     justify-content: space-between;
-    width: 180px;
+    width: 200px;
     margin: 5px;
 }
 .fin{
@@ -239,7 +239,7 @@ border-radius: 50%;
 }
 .texta{
    font-size:12px ;
-   padding-left: 155px;
+   padding-left: 125px;
 }
 .c{
     padding: 5px;
@@ -264,19 +264,16 @@ width: 40px;
 border-radius: 50%;
 }
 .more{
-    background-color: green;
+    background-color: rgb(15, 19, 15);
     display: flex;
    position: absolute;
-   justify-content: center;
-   text-align: center;
-  width: 22%;
-  border-radius: 5px;
-  right: 10px;
-  margin-bottom: 10px;
+justify-content: center;
+  width:22%;
+  border-radius: 10px;
+  
 }
-button{
-    border: none;
-    padding: 7px;
+.more p{
+    color: aliceblue;
 }
 @media(max-width: 1007px){
     .container{
@@ -318,7 +315,7 @@ button{
         padding: 5px;
     }
     .e{
-        height: 150px;
+        height: 160px;
     }
     .c .line img{
         width: 20px;
