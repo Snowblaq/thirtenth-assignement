@@ -301,7 +301,7 @@ justify-content: center;
        ;
 }
     .container{
-        height: 215vh;
+        height: 240vh;
     }
     .b{
         height: 320px;
@@ -315,11 +315,16 @@ justify-content: center;
         padding: 5px;
     }
     .e{
-        height: 160px;
+        height: 165px;
     }
     .c .line img{
         width: 20px;
         border-radius: 50%;
+        }
+        .texta{
+            display: flex;
+            padding-left: 65px;
+            text-align: center;
         }
 @media(max-width: 720px){
     .navbar{
