@@ -177,7 +177,6 @@ button{
     margin: 5px;
 }
 .d{
-    /* display: flex; */
     padding: 30px 20px;
 }
 .char{
@@ -195,7 +194,6 @@ button{
 .lin .profile-image{
 width: 50px;
 border-radius: 50%;
-/* background-color: black; */
 }
 .profile-image img{
     width: 100%;
@@ -241,9 +239,7 @@ border-radius: 50%;
 }
 .texta{
    font-size:12px ;
-   padding-left: 125px;
-   /* text-align: center; */
-   /* margin-bottom: 5px; */
+   padding-left: 155px;
 }
 .c{
     padding: 5px;
@@ -283,15 +279,21 @@ button{
     padding: 7px;
 }
 @media(max-width: 1007px){
-    .grid{
-        top: 70px;  
+    .container{
+        height:100vh;
     }
-
+    .grid{
+        height: 85%;
+        top: 80px;  
+    }
+    .e{
+        height:250px
+    }
 }
 @media(max-width:768px){
     .grid{
-        height: 100%;
-       top: 60px;
+       height: 80%;
+       top: 80px;
        grid-template-columns: 1fr;
        grid-template-areas: 
        "a"
@@ -302,21 +304,26 @@ button{
        ;
 }
     .container{
-        height: 155vh;
+        height: 215vh;
     }
     .b{
-        height: 150px;
+        height: 320px;
+        padding: 5px;
     }
     .c{
-        height: 250px;
+        height: 550px;
     }
     .d{
-        height: 300px;
+        height: 500px;
+        padding: 5px;
     }
     .e{
-        height: 80px;
+        height: 150px;
     }
-}
+    .c .line img{
+        width: 20px;
+        border-radius: 50%;
+        }
 @media(max-width: 720px){
     .navbar{
         justify-content: space-between;
